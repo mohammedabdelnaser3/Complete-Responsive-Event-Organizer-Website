@@ -1,0 +1,169 @@
+<html >
+    <head>
+        <title>Responsive Event Organizer Website</title>
+        <link href="design.css" rel="stylesheet">
+        <link href="fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet">
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo"> <span class="color-blue">E</span>vento</a>
+
+            <nav>
+                <a href="#Home">home</a>
+                <a href="#Price">Price</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+
+        </header>
+
+
+        <div class="change-color-container">
+            <div class="setOfColors">
+                <i class="fa-solid fa-circle color-icon" style="color : blue" onclick="chosenColor.call(this)"></i>
+                <i class="fa-solid fa-circle color-icon" style="color : red" onclick="chosenColor.call(this)"></i>
+                <i class="fa-solid fa-circle color-icon" style="color : green" onclick="chosenColor.call(this)"></i>
+                <i class="fa-solid fa-circle color-icon" style="color : purple" onclick="chosenColor.call(this)"></i>
+                <i class="fa-solid fa-circle color-icon" style="color : orange" onclick="chosenColor.call(this)"></i>
+                <i class="fa-solid fa-circle color-icon" style="color : white" onclick="chosenColor.call(this)"></i>
+            </div>
+            <button class="gear-icon" onclick="hideAndDisplay()">
+                <i class="fa-solid fa-gear fa-spin fa-lg to-press"></i>
+            </button>
+
+
+        </div>
+
+
+        <section id="Home">
+            <div class="content">
+                <h3>IT'S TIME TO CELEBRATE! <br><span class="color-blue">THE BEST EVENT ORGANIZERS</span></h3>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <span class="swiper-slide"><img src="https://img.freepik.com/free-photo/vertical-picture-male-dj-working_181624-19913.jpg?w=360&t=st=1707056340~exp=1707056940~hmac=0e8df0b3eafa6acc040cc6fa3f5c5326cd54d3451985d91f6cc371c60f9fa849" class="image"></span>
+                        <span class="swiper-slide"><img src="https://img.freepik.com/free-photo/view-futuristic-concert_23-2151072985.jpg?t=st=1707051658~exp=1707055258~hmac=e4ca16f1cd248f9c2cf5745157759568dc760e9302a186b15c40a35ebd9a614f&w=996" class="image"></span>
+                        <span class="swiper-slide"><img src="https://img.freepik.com/premium-photo/stage-lighting-shining-down-from-top-many-people-holding-their-mobile-phone-flash-dancing-b_895799-17867.jpg?w=360" class="image"></span>
+                        <span class="swiper-slide"><img src="https://img.freepik.com/premium-photo/large-crowd-people-are-concert_783884-1306.jpg?w=740" class="image"></span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Price" class = "Service">
+            <h1 class="heading">our <span class="color-blue"> price </span>and<span class="color-blue"> services </span></h1>
+            <div class="container">
+                <div class="box">
+                <h3 class="title">For birthdays</h3>
+                <h3 class="price">$250</h3>
+                <ul>
+                    <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Full service</li>
+                    <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Decoration</li>
+                    <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Music</li>
+                    <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Food</li>
+                    <li><i class="fa-solid fa-check" style="color: #28199a;"></i>Invitation cards</li>
+                    <a href="#" class="btn">check out</a>
+                </ul>
+                </div>
+                <div class="box">
+                    <h3 class="title">For birthdays</h3>
+                    <h3 class="price">$250</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Full service</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Decoration</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Music</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Food</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i>Invitation cards</li>
+                        <a href="#" class="btn">check out</a>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3 class="title">For birthdays</h3>
+                    <h3 class="price">$250</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Full service</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Decoration</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Music</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i> Food</li>
+                        <li><i class="fa-solid fa-check" style="color: #28199a;"></i>Invitation cards</li>
+                        <a href="#" class="btn">check out</a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="About" class="about">
+            <h1 class="heading"><span class="color-blue">About</span> us</h1>
+            <div class="about-content">
+                <div class ="about-img">
+                    <img src="https://media.istockphoto.com/id/1360092910/photo/words-with-about-us-web-concept-idea.jpg?b=1&s=612x612&w=0&k=20&c=bWgfRx0ALqSVjvUFHsK5T_0MB_77ykJ0oREsGJ2jMvg=" id="ab">
+                </div>
+                <div class="about-content2">
+                    <h3 id = "bb" >We will give you A very Specical Celebration for you</h3>
+                    <p class="pp">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua.</p>
+                        <p class="pp">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua.
+                        </p>
+                        <a href="#" class="btn">contact us</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact" class="contact">
+            <h1 class="heading"> <span class="color-blue">contact </span>us</h1>
+            <form class="ff">
+                <div class="intput-box">
+                    <input class="inp" type="text" placeholder="name"/>
+                    <input class="inp" type="email" placeholder="email"/>
+                </div>
+                <div class="intput-box">
+                    <input type="text" class="inp" placeholder="number"/>
+                    <input type="text" placeholder="subject" class="inp"/>
+                </div>
+                <textarea class="inp" id="msg" placeholder="your massage" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <a href="#" class="btn">Send massage</a>
+            </form>
+        </section>
+
+        <footer>
+            <div class ="box-container">
+                <div class = "f-box">
+                    <h2>Branches</h2>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Cairo</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> October</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Cairo</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> October</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Cairo</a>
+                </div>
+                <div class = "f-box">
+                    <h2>Quick Links</h2>
+                    <a href="#home"><i class="fa-solid fa-arrow-right"></i> Home</a>
+                    <a href="#price"><i class="fa-solid fa-arrow-right"></i> price</a>
+                    <a href="#about"><i class="fa-solid fa-arrow-right"></i> about</a>
+                    <a href="#contact"><i class="fa-solid fa-arrow-right"></i> contact</a>
+                </div>
+                <div class = "f-box">
+                    <h2>Contact Info</h2>
+                    <a href="#"><i class="fa-solid fa-phone"></i> +123-4567-785</a>
+                    <a href="#"><i class="fa-solid fa-phone"></i> +123-4567-785</a>
+                    <a href="#"><i class="fa-solid fa-envelope-circle-check"></i> website@gmail.com</a>
+                    <a href="#"><i class="fa-solid fa-envelope-circle-check"></i> website@gmail.com</a>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> location</a>
+                </div>
+            </div>
+            <div class="credit">
+                <p>created By <span>Mohamed Abdelnasser</span></p>
+            </div>
+        </footer>
+    <script src="index.js"></script>
+    </body>
+</html>
